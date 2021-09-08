@@ -6,7 +6,7 @@ export const ThemeContext = createContext();
 
 function ThemeContextProvider({children}){
 
-    // {children}: props này chính là toàn bộ các components con mà đươc sử dụng trong ThemeContextProvider
+    // {children}: props này chính là toàn bộ các components con mà được sử dụng trong ThemeContextProvider
 
     // state
     const [theme, setTheme] = useState({

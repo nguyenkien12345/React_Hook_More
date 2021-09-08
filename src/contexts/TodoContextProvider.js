@@ -16,7 +16,8 @@ function TodoContextProvider({children}) {
     // const [todos, setTodos] = useState([]);
 
     // Thay vì sử dụng useState ta sẽ sử dụng useReducers
-    const [todos,dispatch] = useReducer(TodoReducer, []); // Nhận vào 2 tham số: 1 là cái kho hành động (reducer), 2 là trạng thái ban đầu của states. dispatch tượng trưng cho tất cả các hàng động trong kho reducers
+    const [todos,dispatch] = useReducer(TodoReducer, []); 
+    // Nhận vào 2 tham số: 1 là cái kho hành động (reducer), 2 là trạng thái ban đầu của states. dispatch tượng trưng cho tất cả các hàng động trong kho reducers
 
     const [title, setTitle] = useState('');
 

@@ -1,6 +1,4 @@
-// import package
 import React, { useContext } from 'react';
-// import contexts
 import { ThemeContext } from '../contexts/ThemeContextProvider';
 import { TodoContext } from '../contexts/TodoContextProvider';
 

@@ -1,6 +1,4 @@
-// import package
-import React, { useContext, useState } from 'react';
-// import contexts
+import React, { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContextProvider';
 
 function ThemeToggle() {

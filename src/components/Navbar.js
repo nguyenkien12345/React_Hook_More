@@ -1,8 +1,6 @@
-// import package
 import React, { useContext } from 'react';
-// import contexts
-import { ThemeContext } from '../contexts/ThemeContextProvider';
 import { AuthContext } from '../contexts/AuthContextProvider';
+import { ThemeContext } from '../contexts/ThemeContextProvider';
 
 function Navbar(){
 

@@ -1,11 +1,8 @@
-// import package
-import React, { useState, useContext} from 'react';
-// import components
-import TodoItem from './TodoItem';
-import TodoForm from './TodoForm';
-// import contexts
-import { TodoContext } from '../contexts/TodoContextProvider';
+import React, { useContext } from 'react';
 import { AuthContext } from '../contexts/AuthContextProvider';
+import { TodoContext } from '../contexts/TodoContextProvider';
+import TodoForm from './TodoForm';
+import TodoItem from './TodoItem';
 
 
 function TodoList() {
